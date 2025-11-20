@@ -1,0 +1,41 @@
+# WordPress / Docker dev ignores
+.env
+.env.*
+.env.local
+
+# DB volumes (handled by docker volume, not by git)
+/db_data/
+
+# Logs
+*.log
+log/
+logs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node (se usar ferramentas front)
+node_modules/
+
+# Composer (caso adicionado futuramente)
+/vendor/
+composer.lock
+
+# Cache / backups
+cache/
+*.sql
+*.sql.gz
+
+# WordPress uploads (opcional — se quiser versionar remova esta linha)
+wp-content/uploads/
+
+# PhpStorm etc
+*.iml
+
+# Git
+.git-credentials
+
+# Não ignorar wp-config.php propositalmente (controlado)

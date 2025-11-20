@@ -1,0 +1,13 @@
+# Ignorar dados temporários e sensíveis
+*.log
+node_modules/
+.git/
+.gitignore
+Dockerfile
+docker-compose.yml
+.dockerignore
+README.md
+# Se criar uploads locais e não quiser copiar para imagem
+wp-content/uploads/
+# Cache
+cache/
