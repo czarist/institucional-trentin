@@ -71,7 +71,7 @@ define( 'NONCE_SALT',       'put your unique phrase here' );
  *
  * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/#table-prefix
  */
-$table_prefix = 'trentin_';
+$table_prefix = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.
