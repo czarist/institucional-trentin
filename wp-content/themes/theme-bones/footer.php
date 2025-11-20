@@ -1,33 +1,23 @@
-			<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
 
-				<div id="inner-footer" class="wrap cf">
+		<footer class="border-t border-black/5" data-aos="fade-up" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+			<div class="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-2 gap-6 items-center">
+			<div class="text-sm text-dark/70">© <span id="year"></span> Trentin Soluções em Software LTDA. Todos os direitos
+				reservados.</div>
+			<div class="flex md:justify-end gap-4 text-sm">
+				<a href="#" class="hover:text-primary"><i class="fas fa-file-contract mr-1"></i>Termos</a>
+				<a href="#" class="hover:text-primary"><i class="fas fa-shield-alt mr-1"></i>Privacidade</a>
+				<a href="#contato" class="px-4 py-2 rounded-lg bg-primary text-white hover:bg-primaryLight"><i
+					class="fas fa-envelope-open-text mr-1"></i>Fale conosco</a>
+			</div>
+			</div>
+		</footer>
 
-					<nav role="navigation">
-						<?php wp_nav_menu(array(
-    					'container' => 'div',                           // enter '' to remove nav container (just make sure .footer-links in _base.scss isn't wrapping)
-    					'container_class' => 'footer-links cf',         // class of container (should you choose to use it)
-    					'menu' => __( 'Footer Links', 'bonestheme' ),   // nav name
-    					'menu_class' => 'nav footer-nav cf',            // adding custom nav class
-    					'theme_location' => 'footer-links',             // where it's located in the theme
-    					'before' => '',                                 // before the menu
-    					'after' => '',                                  // after the menu
-    					'link_before' => '',                            // before each link
-    					'link_after' => '',                             // after each link
-    					'depth' => 0,                                   // limit the depth of the nav
-    					'fallback_cb' => 'bones_footer_links_fallback'  // fallback function
-						)); ?>
-					</nav>
 
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
-
-				</div>
-
-			</footer>
 
 		</div>
 
-		<?php // all js scripts are loaded in library/bones.php ?>
-		<?php wp_footer(); ?>
+				<?php // all js scripts are loaded in library/bones.php ?>
+				<?php wp_footer(); ?>
 
 	</body>
 
