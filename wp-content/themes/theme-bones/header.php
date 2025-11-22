@@ -1,10 +1,4 @@
 <!doctype html>
-
-<!--[if lt IE 7]><html <?php language_attributes(); ?> class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html <?php language_attributes(); ?> class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html <?php language_attributes(); ?> class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--> <html <?php language_attributes(); ?> class="no-js"><!--<![endif]-->
-
 	<head>
 		<meta charset="utf-8">
 
@@ -88,7 +82,7 @@
 
 	</head>
 
-	<body <?php body_class('bg-light text-dark'); ?> itemscope itemtype="http://schema.org/WebPage">
+	<body	     	      <?php body_class('bg-light text-dark'); ?> itemscope itemtype="http://schema.org/WebPage">
 
 		<div id="container">
 
@@ -107,7 +101,7 @@
 			<header class="sticky top-0 z-40 backdrop-blur bg-white/80 border-b border-black/5" role="banner" itemscope itemtype="http://schema.org/WPHeader" data-aos="fade-down">
 				<div class="max-w-7xl mx-auto px-4">
 					<div class="flex items-center justify-between h-16">
-						<a href="<?php echo esc_url( home_url('/') ); ?>" class="flex items-center gap-2" rel="home">
+						<a href="<?php echo esc_url(home_url('/')); ?>" class="flex items-center gap-2" rel="home">
 							<span class="inline-flex h-9 w-9 items-center justify-center rounded-full bg-primary text-white font-display text-xl shadow-soft">
 								<i class="fas fa-dragon"></i>
 							</span>
